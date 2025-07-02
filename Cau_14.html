@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Phản hồi của bạn</h2>
+    <form action="phanhoi" method="post">
+        <div>
+            <label>Đánh giá của bạn:</label><br>
+            <input type="radio" id="1sao" name="danhgia" value="1" required><label for="1sao">1 Sao</label>
+            <input type="radio" id="2sao" name="danhgia" value="2" ><label for="2sao">2 Sao</label>
+            <input type="radio" id="3sao" name="danhgia" value="3" ><label for="3sao">3 Sao</label>
+            <input type="radio" id="4sao" name="danhgia" value="4" ><label for="4sao">4 Sao</label>
+            <input type="radio" id="5sao" name="danhgia" value="5" ><label for="5sao">5 Sao</label>
+        </div>
+
+        <br>
+        
+        <div>
+            <label for="ykien">Ý kiến/Phản hồi của bạn:</label>
+            <textarea id="ykien" name="ykien" row="5" placeholder="Hãy chia sẻ ý kiến của bạn về san phẩm/dịch vụ của chúng tôi..."></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email của bạn (tùy chọn):</label><br>
+            <input type="email" id="email" name="email" placeholder="abc@gmail.com">
+        </div>
+
+        <br>
+
+        <button type="submit">Gửi phản hồi</button>
+        <p>Cảm ơn bạn đã dành thời gian gửi phản hồi!</p>
+    </form>
+</body>
+</html>
